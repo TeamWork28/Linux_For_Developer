@@ -1,0 +1,30 @@
+
+pwd - print work directory (shows the current work directly)
+cd - Changing the directory 
+cd .. - getting back to the main directory (root)
+ls - provides the list of files present in the directory
+ls - l - provides the file in the list view with their "rxw" description
+ls - a - provides the list of files that are hidden
+rm - removes the file present in the directory 
+rmdir - deletes the directory
+clear - clears the terminal or console
+exit - closes the terminal
+mv - moves the file from one location to the another
+mv "name" "name" - renames the file
+cp - copy's the file
+mkdir - creates a directory
+chmod - changes the mode of the file (chmod 644, 777, 744 ...)
+chown - changes the owner set of the file
+chgrp - changes the group the ownership
+ssh-keygen -t rsa - creates a key pair (generally for cloud instances)
+cat "file" - shows the content present inside the file
+nano - terminal text editor (like Windows Notepad/Apple Macbook Notes)
+vim - terminal text editor (mainly for shell scripting)
+ip -a - shows the network congifurations
+man - shows the linux manual
+history - shows the commands you used in the terminal
+df -h -shows the disk space of your pc
+whoami - shows the details of the user.
+
+apt,yum,rpm - different package manager for different linux OS
+ 
