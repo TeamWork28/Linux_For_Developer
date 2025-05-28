@@ -33,10 +33,6 @@ uniq - removes the duplicate content present in the file
 
 apt,yum,rpm - different package manager for different linux OS
 
-Networking:
-ping - Checks if the server is reachable and measures its response time.
-ifconfig - shows the network configuration with their inet address in it.
-
 Descriptions:
 UNIX - It is a OS where Linux is created and with that there are many distros(Versions) within the Linux.
 GNU - It is software tool where it can be used to create an OS like UNIX. 
