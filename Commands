@@ -20,6 +20,7 @@ ssh-keygen -t rsa - creates a key pair (generally for cloud instances)
 cat "file" - shows the content present inside the file
 nano - terminal text editor (like Windows Notepad/Apple Macbook Notes)
 vim - terminal text editor (mainly for shell scripting)
+echo - printing a message within the terminal
 ip -a - shows the network congifurations
 man - shows the linux manual
 history - shows the commands you used in the terminal
