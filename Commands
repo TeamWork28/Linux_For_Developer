@@ -13,6 +13,7 @@ mv - moves the file from one location to the another
 mv "name" "name" - renames the file
 cp - copy's the file
 mkdir - creates a directory
+touch - creates a new text file
 chmod - changes the mode of the file (chmod 644, 777, 744 ...)
 chown - changes the owner set of the file
 chgrp - changes the group the ownership
