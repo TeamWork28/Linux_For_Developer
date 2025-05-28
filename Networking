@@ -1,0 +1,29 @@
+Networking begins with the OSI Models:
+
+in simple terms for packets it means "Data" with their source and destination.
+
+OSI (Open System Interconnection) - This model primarily focuses on how TCP/IP works and how a packet is traversed into 7 different layers.
+TCP/IP - The main tool for the implementation of networking. These help to define how datas are gathered, addressed, transmitted and more.
+
+Application layer - The top layer of the TCP/IP that determines the web browser using the transport layer in which the data can be sent and received.
+      It consist of two layers - HTTP (HyperText Transfer Protocol) and SMTP (Simple Mail Transfer Protocol).
+      It consists of head and payload.
+
+Transport layer - It determines how datas are transmitted, including the ports, integreting and delivering the packets.
+      It consists of two layers - TCP (Transmission Control Protocol) and UDP (User Datagram Protocol).
+      
+Network layer - It determines how the packets move between the hosts and the network
+      It consists of two layers - 
+          IP (Internet Protocol) - transfer packets from one host to the other.
+          ICMP (Internet Control Message Protocol) - updates the current status to the user such as errors, debugging.
+      The internet is divided into smaller network and these are called subnets.
+
+To get the packets information between one host to the other MAC (Media Access Control) and IP address are requried. Making it easier to identify the host.
+
+MAC - It is a unique identifier of the system's hardware address. Each organization manufacturing the network adapters has 3 bytes of MAC address.
+
+IP Address - used to identify the device connected to the network. It consist of 2 types IPv4 and IPv6.
+
+DHCP (Dynamic Host Configuration Protocol) - Provides the IP address, Subnet masks and gateways, It automatically provides IP address to the network admin and removes the duplicate address.
+
+
