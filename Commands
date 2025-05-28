@@ -7,6 +7,7 @@ ls - l - provides the file in the list view with their "rxw" description
 ls - a - provides the list of files that are hidden
 rm - removes the file present in the directory 
 rmdir - deletes the directory
+rm -rf - removes the directory and it's contents 
 clear - clears the terminal or console
 exit - closes the terminal
 mv - moves the file from one location to the another
@@ -27,8 +28,14 @@ man - shows the linux manual
 history - shows the commands you used in the terminal
 df -h -shows the disk space of your pc
 whoami - shows the details of the user.
+sort - sorts the file content 
+uniq - removes the duplicate content present in the file
 
 apt,yum,rpm - different package manager for different linux OS
+
+Networking:
+ping - Checks if the server is reachable and measures its response time.
+ifconfig - shows the network configuration with their inet address in it.
 
 Descriptions:
 UNIX - It is a OS where Linux is created and with that there are many distros(Versions) within the Linux.
