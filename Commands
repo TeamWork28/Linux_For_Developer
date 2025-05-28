@@ -27,4 +27,9 @@ df -h -shows the disk space of your pc
 whoami - shows the details of the user.
 
 apt,yum,rpm - different package manager for different linux OS
- 
+
+Descriptions:
+UNIX - It is a OS where Linux is created and with that there are many distros(Versions) within the Linux.
+GNU - It is software tool where it can be used to create an OS like UNIX. 
+Kernel - It is tool where it can be used to control the hardware, CPU, memory usage and more.
+
