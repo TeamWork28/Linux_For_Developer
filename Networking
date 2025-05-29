@@ -26,4 +26,22 @@ IP Address - used to identify the device connected to the network. It consist of
 
 DHCP (Dynamic Host Configuration Protocol) - Provides the IP address, Subnet masks and gateways, It automatically provides IP address to the network admin and removes the duplicate address.
 
+Subnetting - dividing larger networks into smaller networks. ex 10.0.0.2/25 (2 subnets), 10.0.0.2/26 (4 subnets).
+Supernetting - combining smaller networks into larger networks. ex combining 192.168.1.0/24 * 2 to 192.168.1.0/22.
+
+Routing - Moving/transferring of data to different networks.
+Switching - Transferring of data within the same network.
+
+NAT (Network Address Translation) - Allowing multiple private IP address to access in a single public IP addres.
+      Types - Static NAT, Dynamic NAT and PAT (Port Address Translation)
+
+Firewall and security - A in-built device that controls the incoming and outgoing traffic.
+      Types - Hardware (Device), Software (Operating System)
+Security - Antivirus, encryption, VPN.
+
+IPv6 - advanced version of IPv4 consists of address bits to 128bits.
+      Types - Unicast (1-1), Multicast (1-∞) and Anycast (1-nearest).
+
+
+
 
