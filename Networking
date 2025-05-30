@@ -24,6 +24,8 @@ MAC - It is a unique identifier of the system's hardware address. Each organizat
 
 IP Address - used to identify the device connected to the network. It consist of 2 types IPv4 and IPv6.
 
+DNS (Domain Name System) - Each webpage/site consists of a IP address, it is hardd for humans to remember them so for those address a domain name will be given. Ex (8.8.8.8 - Google Public DNS)
+
 DHCP (Dynamic Host Configuration Protocol) - Provides the IP address, Subnet masks and gateways, It automatically provides IP address to the network admin and removes the duplicate address.
 
 Subnetting - dividing larger networks into smaller networks. ex 10.0.0.2/25 (2 subnets), 10.0.0.2/26 (4 subnets).
