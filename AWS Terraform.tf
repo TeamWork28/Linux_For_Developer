@@ -1,7 +1,7 @@
 provider "aws" {
     region = "ap-south-1"
-    access_key = ""
-    secret_key = ""
+    access_key = "your access key here"
+    secret_key = "your secret key here"
 }
 
 resource "aws_instance" "my-ec2" {
