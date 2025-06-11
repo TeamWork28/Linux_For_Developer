@@ -1,0 +1,26 @@
+pipeline {
+    agent any
+
+    stages {
+        stage ("Install") {
+            steps {
+                sh 'pip3 install numpy'
+                echo "Numpy installed successfully"
+            }
+        }
+        stage ("Test") {
+            steps {
+                script {
+                    try {
+                        sh 'python3 -c "import numpy; print((numpy.__version__))"'
+                        echo "Numpy is working correctly"
+                    }
+                    catch (Exception e){
+                        echo "Numpy installation failed or is not working correctly"
+                        error "Test failed: ${e.message}"
+                    }
+                }
+            }
+        }
+    }
+}
